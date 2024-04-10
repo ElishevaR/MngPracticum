@@ -1,0 +1,18 @@
+
+<div class="modal-header">
+    <h4 class="modal-title">{{ employee.fName }} {{ employee.lName }}</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss()"></button>
+</div>
+<div class="modal-body">
+    <p>First Name: {{ employee.fName }}</p>
+    <p>Last Name: {{ employee.lName }}</p>
+    <p>Identity Number: {{ employee.identityNumber }}</p>
+    <p>Start Date: {{ employee.startDate | date }}</p>
+    <!-- Display additional employee details as needed -->
+
+    <!-- Display roles -->
+    <p>Roles:</p>
+    <div class="list-group">
+        <span *ngFor="let role of employee.rolesForEmployee" class="list-group-item">uuu</span>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+/* סגנון עבור כפתורים */
+.btn {
+    margin-bottom: 10px;
+}
+
+/* סגנון עבור טבלה */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* סגנון עבור כפתורי עריכה ומחיקה */
+.fa-trash-alt, .fa-pencil-alt {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+img{
+    height: 30px;
+}
+
+/* עיצוב עבור שורה חורפים */
+.dark-row {
+  background-color: #000000; /* צבע רקע כהה */
+  color: #ffffff; /* צבע טקסט בהיר */
+}
+
+/* עיצוב עבור שורה בהירה */
+.light-row {
+  background-color: #ffffff; /* צבע רקע בהיר */
+  color: #000000; /* צבע טקסט כהה */
+}
+body {
+    background-color: #333; /* צבע רקע כהה */
+    color: #fff; /* צבע טקסט בהיר */
+  }
+
+  .table {
+    background-color: #444; /* צבע רקע של הטבלה */
+    color: #fff; /* צבע טקסט בהיר */
+  }
+
+  .table th,
+  .table td {
+    border-color: #777; /* צבע קווי תוך הטבלה */
+  }
+
+  .table th {
+    background-color: #555; /* צבע רקע של כותרות הטבלה */
+  }

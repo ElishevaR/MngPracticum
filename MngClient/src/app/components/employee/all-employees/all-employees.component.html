@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+    <div  class="container mt-4">
+      <!-- שדה חיפוש -->
+      <input type="text" [(ngModel)]="searchText" (input)="filterEmployeesList()" class="form-control mb-3" placeholder="Search..." >
+      
+      
+      <!-- כפתורים -->
+      <div class="mb-3">
+          <button class="btn btn-primary me-2" (click)="addEmployee()"><i class="fas fa-user-plus me-1"></i>Add Employee</button>
+          <button class="btn btn-success" (click)="exportToExcel()">
+              <i class="fas fa-download"></i> Export to Excel
+          </button>
+      </div>
+    
+      <!-- טבלת רשימת העובדים -->
+      <table class="table">
+        <!-- כותרות הטבלה -->
+        <thead class="thead-dark">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Identity Number</th>
+                <th>Start Date</th>
+                <th>Gender</th> <!-- עמודת המין -->
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <!-- נתוני העובדים -->
+        <tbody>
+            <tr  *ngFor="let employee of filteredEmployeesList" (click)="openEmployeeDetailsModal(employee)"  >
+                <td>{{ employee.fName }}</td>
+                <td>{{ employee.lName }}</td>
+                <td>{{ employee.identityNumber }}</td>
+                <td>{{ employee.startDate | date }}</td>
+                <td>
+                  <i   aria-hidden="true">  <img [src]=" (employee.gender | gender)" alt="Gender Image">  </i>
+              </td>   
+                <td>
+                    <!-- כפתורי עריכה ומחיקה -->
+                    <i class="fas fa-trash-alt text-danger cursor-pointer me-2" (click)="deleteEmployee(employee)"></i>
+                    <i class="fas fa-pencil-alt text-secondary cursor-pointer" (click)="editEmployee(employee)"></i>
+                </td>
+            
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
