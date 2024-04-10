@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aNnjtn1yrrc0z1KOT+or86AGavYk8cOWtisOXqYxYDxAyGGnWTHpFyX2rRecgoJj8rXpqJ1KyvgKX4avj9MtLA==",
+  "dgSpecHash": "6vTIf8ekhsV04WKl7q9UJfeXxNDZhJx6Dxr+hcH8VYB/w47Ce5KOGeDnDhX94fPJg0Z6I4pgzAP5ffDshHHYwA==",
   "success": true,
-  "projectFilePath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Core\\Mng.Core.csproj",
+  "projectFilePath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -38,8 +38,12 @@
         </thead>
         <!-- נתוני העובדים -->
         <tbody>
-            <tr  *ngFor="let employee of filteredEmployeesList" (click)="openEmployeeDetailsModal(employee)"  >
-                <td>{{ employee.fName }}</td>
+            <tr  *ngFor="let employee of filteredEmployeesList"   >
+                <!-- <td  (click)="openEmployeeDetailsModal(employee)">{{ employee.fName }}</td> -->
+                <td>
+                    <a href="javascript:void(0)" (click)="openEmployeeDetailsModal(employee)" style="cursor: pointer; color: black;">{{ employee.fName }}</a>
+                  </td>
+                
                 <td>{{ employee.lName }}</td>
                 <td>{{ employee.identityNumber }}</td>
                 <td>{{ employee.startDate | date }}</td>
@@ -56,4 +60,15 @@
         </tbody>
     </table>
   </div>
+
+
+
+
+
+
+
+
+
+
+
 

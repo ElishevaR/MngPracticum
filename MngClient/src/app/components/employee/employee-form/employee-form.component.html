@@ -38,6 +38,15 @@
         <p *ngIf="addEmployeeForm.controls['identityNumber'].hasError('pattern')">Invalid characters</p>
       </ng-container>
     </div>
+     <!-- שדה לתאריך לידה -->
+    <div class="mb-3">
+      <label for="birthDate" class="form-label">Birth Date:</label>
+      <input type="date" class="form-control" id="birthDate" matInput formControlName="birthDate" required>
+      <ng-container *ngIf="addEmployeeForm.controls['birthDate'].errors">
+        <p *ngIf="addEmployeeForm.controls['birthDate'].hasError('required')">Start Date is required</p>
+        <ng-container *ngIf="addEmployeeForm.controls['birthDate'].hasError('validateBirthDate')">You can start working from the age of 18 onwards only</ng-container>
+      </ng-container>
+    </div>
     <!-- שדה לתאריך תחילת העבודה -->
     <div class="mb-3">
       <label for="startDate" class="form-label">Start Date:</label>
@@ -48,14 +57,7 @@
       </ng-container>
       
     </div>
-    <!-- שדה לתאריך לידה -->
-    <div class="mb-3">
-      <label for="birthDate" class="form-label">Birth Date:</label>
-      <input type="date" class="form-control" id="birthDate" matInput formControlName="birthDate" required>
-      <div class="invalid-feedback" *ngIf="addEmployeeForm.get('birthDate')?.invalid && addEmployeeForm.get('birthDate')?.touched">
-        This field is required!
-      </div>
-    </div>
+   
     <!-- שדה לבחירת מין -->
     <div class="mb-3">
       <label for="gender" class="form-label">Gender:</label>

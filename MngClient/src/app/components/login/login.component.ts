@@ -22,14 +22,14 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     this.loginForm = new FormGroup({
       userName: new FormControl('', [Validators.required, Validators.pattern('^[a-zA-Z]+$')]),
-      identityNumber: new FormControl('', [Validators.required])
+      password: new FormControl('', [Validators.required])
     });
   }
 
   save(): void {
     if (this.loginForm.valid) {
       const loginData = this.loginForm.value;
-      this._userService.login(loginData.userName, loginData.identityNumber).subscribe({
+      this._userService.login(loginData.userName, loginData.password).subscribe({
         next: (response) => {
           localStorage.setItem('token', response.token);
           this.router.navigate(['/employees']);

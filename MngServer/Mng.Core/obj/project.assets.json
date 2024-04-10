@@ -2264,11 +2264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Core\\Mng.Core.csproj",
+      "projectUniqueName": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
       "projectName": "Mng.Core",
-      "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Core\\Mng.Core.csproj",
+      "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Core\\obj\\",
+      "outputPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

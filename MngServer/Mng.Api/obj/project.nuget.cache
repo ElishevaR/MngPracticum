@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "abE3fkhw7+QrZCDMc1CgKOggV5TqjBIa2dbwlp+9uUd3kr93t/INlJEvDdEIh2cNP6w7OD94BRERqVBOmibBaQ==",
+  "dgSpecHash": "agrISetKBSzxcm9I9ISpgoSDHxdkass4k6uF1fCIip+lgNfYZaKzd85p4sOY9zxBpZyShKL0bAGdxqxYCTsPyw==",
   "success": true,
-  "projectFilePath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Api\\Mng.Api.csproj",
+  "projectFilePath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Api\\Mng.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

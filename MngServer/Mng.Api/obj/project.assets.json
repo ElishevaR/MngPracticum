@@ -4298,11 +4298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Api\\Mng.Api.csproj",
+      "projectUniqueName": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Api\\Mng.Api.csproj",
       "projectName": "Mng.Api",
-      "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Api\\Mng.Api.csproj",
+      "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Api\\Mng.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Api\\obj\\",
+      "outputPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4323,11 +4323,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Data\\Mng.Data.csproj": {
-              "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Data\\Mng.Data.csproj"
+            "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Data\\Mng.Data.csproj": {
+              "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Data\\Mng.Data.csproj"
             },
-            "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Service\\Mng.Service.csproj": {
-              "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\Practicod4.4Server\\Mng.Service\\Mng.Service.csproj"
+            "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Service\\Mng.Service.csproj": {
+              "projectPath": "C:\\myCoursesFullStack\\שנה ב\\MngPracticum\\MngServer\\Mng.Service\\Mng.Service.csproj"
             }
           }
         }

@@ -11,8 +11,8 @@ export class UserService {
 
   constructor(private _http: HttpClient) { }
 
-  login(userName: string, identityNumber: string): Observable<LoginResponse> {
-    const body = { userName, identityNumber };
+  login(userName: string, password: string): Observable<LoginResponse> {
+    const body = { userName, password };
     return this._http.post<LoginResponse>(`${this.baseUrl}`, body);
   }
   loggedIn(): boolean {

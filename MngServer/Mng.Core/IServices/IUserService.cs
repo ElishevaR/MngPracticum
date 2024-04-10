@@ -9,7 +9,7 @@ namespace Mng.Core.IServices
 {
     public interface IUserService
     {
-        Task<User> GetByUserNameAndPaswword(string userName, string identityNumber);
+        Task<User> GetByUserNameAndPaswword(string userName, string password);
 
     }
 }

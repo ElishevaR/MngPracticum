@@ -20,4 +20,26 @@ export class CustomValidators {
     
     return null; // אין שגיאה, התאריך תקין
   }
+
+
+  static validateBirthDate(control: AbstractControl): ValidationErrors | null {
+    const startDateControl = control.root.get('startDate');
+    if (!startDateControl || startDateControl.value === null) {
+      return null; // אין בעיה אם נתאריך ההתחלה לא קיים או הוא null
+    }
+
+    if (startDateControl && startDateControl.value !== null) {
+      // בדיקת תאריך לידה:
+      const birthDate = new Date(control.value);
+      const startDate = new Date(startDateControl.value);
+      const maxBirthDate = new Date(startDate);
+      maxBirthDate.setFullYear(startDate.getFullYear() - 18);
+
+      if (birthDate > maxBirthDate) {
+        return { 'birthDateTooLate': true };
+      }
+    }
+
+    return null;
+  }
 }

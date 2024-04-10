@@ -25,7 +25,7 @@ namespace Mng.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginModel loginModel)
         {
-            var user = await _userService.GetByUserNameAndPaswword(loginModel.UserName, loginModel.IdentityNumber);
+            var user = await _userService.GetByUserNameAndPaswword(loginModel.UserName, loginModel.Password);
 
         
             if(user == null) {return Unauthorized(); }
@@ -33,7 +33,7 @@ namespace Mng.Api.Controllers
 
             var claims = new List<Claim>()
             {
-                new Claim("IdentityNumber",user.IdentityNumber.ToString() ),
+                new Claim("Password",user.Password.ToString() ),
                 new Claim("UserName",user.UserName)
             };
 

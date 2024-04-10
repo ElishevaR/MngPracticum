@@ -16,9 +16,9 @@ namespace Mng.Data.Repositories
         {
             _userRepository = userRepository;
         }
-        public async Task<User> GetByUserNameAndPaswword(string userName, string identityNumber)
+        public async Task<User> GetByUserNameAndPaswword(string userName, string password)
         {
-            return await _userRepository.GetByUserNameAndPaswword(userName, identityNumber);
+            return await _userRepository.GetByUserNameAndPaswword(userName, password);
         }
     }
 }

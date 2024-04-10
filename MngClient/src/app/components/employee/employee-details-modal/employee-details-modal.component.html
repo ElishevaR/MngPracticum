@@ -8,11 +8,9 @@
     <p>Last Name: {{ employee.lName }}</p>
     <p>Identity Number: {{ employee.identityNumber }}</p>
     <p>Start Date: {{ employee.startDate | date }}</p>
-    <!-- Display additional employee details as needed -->
-
-    <!-- Display roles -->
-    <p>Roles:</p>
-    <div class="list-group">
-        <span *ngFor="let role of employee.rolesForEmployee" class="list-group-item">uuu</span>
-    </div>
+  
+    <div class="list-group" appHideIfEmpty [data]="employee.rolesForEmployee">
+        <p>Roles:</p>
+        <span *ngFor="let role of employee.rolesForEmployee" class="list-group-item">{{ getRoleDescriptionById(role.roleId) }}</span>
+      </div>
 </div>

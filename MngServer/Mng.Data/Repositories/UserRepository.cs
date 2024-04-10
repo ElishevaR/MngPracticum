@@ -16,9 +16,9 @@ namespace Mng.Data.Repositories
         {
             _dataContext = dataContext;
         }
-        public async Task<User> GetByUserNameAndPaswword(string userName, string identityNumber)
+        public async Task<User> GetByUserNameAndPaswword(string userName, string password)
         {
-            return await _dataContext.Users.FirstOrDefaultAsync(u => u.UserName == userName && u.IdentityNumber==identityNumber);
+            return await _dataContext.Users.FirstOrDefaultAsync(u => u.UserName == userName && u.Password==password);
         }
     }
 }
