@@ -18,9 +18,5 @@ export class UserService {
   loggedIn(): boolean {
     return !!localStorage.getItem('token');
   }
-
-  // התנתקות מהאפליקציה (מחיקת הטוקן מ- localStorage)
-  logout(): void {
-    localStorage.removeItem('token');
-  }
+ 
 }

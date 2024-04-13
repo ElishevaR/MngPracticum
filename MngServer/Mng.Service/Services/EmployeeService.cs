@@ -21,7 +21,12 @@ namespace Mng.Service.Services
 
     public async Task<bool> CreateEmployee(Employee employee)
     {
-      return await _employeeRepository.CreateEmployee(employee);
+            var allEmployess = await _employeeRepository.GetAllEmployees();
+            List<Employee> list = allEmployess.ToList();
+            var employeeExists = list.Find(e => e.IdentityNumber== employee.IdentityNumber);
+            if (employeeExists != null)
+                return false;
+            return await _employeeRepository.CreateEmployee(employee);
     }
 
     public async Task<bool> ChangeEmployeeToNonActivate(int id)

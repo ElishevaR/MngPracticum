@@ -13,8 +13,6 @@
     <div  class="container mt-4">
       <!-- שדה חיפוש -->
       <input type="text" [(ngModel)]="searchText" (input)="filterEmployeesList()" class="form-control mb-3" placeholder="Search..." >
-      
-      
       <!-- כפתורים -->
       <div class="mb-3">
           <button class="btn btn-primary me-2" (click)="addEmployee()"><i class="fas fa-user-plus me-1"></i>Add Employee</button>
@@ -39,7 +37,7 @@
         <!-- נתוני העובדים -->
         <tbody>
             <tr  *ngFor="let employee of filteredEmployeesList"   >
-                <!-- <td  (click)="openEmployeeDetailsModal(employee)">{{ employee.fName }}</td> -->
+               
                 <td>
                     <a href="javascript:void(0)" (click)="openEmployeeDetailsModal(employee)" style="cursor: pointer; color: black;">{{ employee.fName }}</a>
                   </td>
