@@ -2,13 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LoginResponse } from '../models/loginResponse';
+import { API_CONFIG } from '../apiConfig';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  private baseUrl = 'https://localhost:7073/api/Auth'; // שנה לכתובת הנכונה של ה-API שלך
-
+  private baseUrl = API_CONFIG.baseUrl + '/Auth';
   constructor(private _http: HttpClient) { }
 
   login(userName: string, password: string): Observable<LoginResponse> {
