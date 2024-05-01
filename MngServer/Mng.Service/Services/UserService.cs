@@ -20,5 +20,9 @@ namespace Mng.Data.Repositories
         {
             return await _userRepository.GetByUserNameAndPaswword(userName, password);
         }
+        public async Task<User> Register(string userName, string password)
+        {
+            return await _userRepository.Register(userName, password);
+        }
     }
 }

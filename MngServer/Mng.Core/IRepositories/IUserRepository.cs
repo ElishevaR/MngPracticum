@@ -10,6 +10,7 @@ namespace Mng.Core.IRepositories
     public interface IUserRepository
     {
         Task<User> GetByUserNameAndPaswword(string userName, string password);
+        Task<User> Register(string userName, string password);
 
     }
 }

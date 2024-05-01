@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|solutionrelative:mng.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\migrations\\20240407231454_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\migrations\\20240407231454_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|solutionrelative:mng.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\mappingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\mappingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|solutionrelative:mng.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD4E276-2AEF-4E65-9BDD-A86FF7E5E1F4}|Mng.Service\\Mng.Service.csproj|solutionrelative:mng.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\mng.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\mng.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\migrations\\20240407231454_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\migrations\\20240407231454_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\mappingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\mappingprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\entities\\roleforemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C331D00-04E0-4A01-86A4-DCABBF86FD23}|Mng.Data\\Mng.Data.csproj|solutionrelative:mng.data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\mng.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\mng.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -109,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.core\\dtos\\roleforemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49CBCEA-E71A-41A3-B049-E51E12C412AF}|Mng.Core\\Mng.Core.csproj|solutionrelative:mng.core\\dtos\\roleforemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|solutionrelative:mng.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69A5267A-B2EE-4CAB-B0E1-001D9B8CE42E}|Mng.Api\\Mng.Api.csproj|c:\\mycoursesfullstack\\\u05E9\u05E0\u05D4 \u05D1\\mngpracticum\\mngserver\\mng.api\\mng.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -150,11 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 88,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "20240407231454_validations.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Migrations\\20240407231454_validations.cs",
               "RelativeDocumentMoniker": "Mng.Data\\Migrations\\20240407231454_validations.cs",
@@ -163,24 +163,141 @@
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T23:14:54.711Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Mng.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwv0IAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:37:54.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Mng.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Mng.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:07:32.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Mng.Service\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Mng.Service\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T00:25:14.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Mng.Api\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T07:32:11.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Mng.Api\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T01:11:46.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Mng.Service\\Services\\UserService.cs",
               "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\UserService.cs",
               "RelativeToolTip": "Mng.Service\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:09:06.956Z"
+              "WhenOpened": "2024-04-07T21:09:06.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Mng.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:46:52.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Mng.Core\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "Mng.Core\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:05:41.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "Mng.Core\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IServices\\IUserService.cs",
+              "RelativeToolTip": "Mng.Core\\IServices\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T21:06:54.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mng.Core.csproj",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
+              "RelativeDocumentMoniker": "Mng.Core\\Mng.Core.csproj",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
+              "RelativeToolTip": "Mng.Core\\Mng.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-04T00:19:57.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Mng.Api\\Models\\LoginModel.cs",
@@ -192,44 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Mng.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Mng.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:07:32.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Mng.Service\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Service\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Mng.Service\\Services\\EmployeeService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T00:25:14.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Mng.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAowCQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T20:37:54.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "MappingProfileDTO.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\MappingProfileDTO.cs",
               "RelativeDocumentMoniker": "Mng.Core\\MappingProfileDTO.cs",
@@ -241,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Mng.Core\\Entities\\User.cs",
@@ -253,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Program.cs",
               "RelativeDocumentMoniker": "Mng.Api\\Program.cs",
@@ -265,43 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IRepositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Mng.Core\\IRepositories\\IUserRepository.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IRepositories\\IUserRepository.cs",
-              "RelativeToolTip": "Mng.Core\\IRepositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:05:41.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IServices\\IUserService.cs",
-              "RelativeDocumentMoniker": "Mng.Core\\IServices\\IUserService.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IServices\\IUserService.cs",
-              "RelativeToolTip": "Mng.Core\\IServices\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:06:54.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "Mng.Api\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwEUAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:32:11.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "RoleForEmployee.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Entities\\RoleForEmployee.cs",
               "RelativeDocumentMoniker": "Mng.Core\\Entities\\RoleForEmployee.cs",
@@ -313,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "20240409203932_withoutValidationInRolrForEmployee2.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Migrations\\20240409203932_withoutValidationInRolrForEmployee2.cs",
               "RelativeDocumentMoniker": "Mng.Data\\Migrations\\20240409203932_withoutValidationInRolrForEmployee2.cs",
@@ -349,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "EmployeePostAndPutModel.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Models\\EmployeePostAndPutModel.cs",
               "RelativeDocumentMoniker": "Mng.Api\\Models\\EmployeePostAndPutModel.cs",
@@ -361,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "Mng.Core\\Entities\\Employee.cs",
@@ -373,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Mng.Data\\DataContext.cs",
@@ -381,23 +425,12 @@
               "RelativeToolTip": "Mng.Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:24:05.458Z"
+              "WhenOpened": "2024-04-07T14:24:05.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Mng.Data\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "Mng.Data\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwDsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:46:52.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Data\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "Mng.Data\\Repositories\\RoleRepository.cs",
@@ -409,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "RoleForEmployeeModel.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Models\\RoleForEmployeeModel.cs",
               "RelativeDocumentMoniker": "Mng.Api\\Models\\RoleForEmployeeModel.cs",
@@ -421,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Mng.Core\\Entities\\Role.cs",
@@ -430,18 +463,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T20:59:25.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Mng.Core.csproj",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
-              "RelativeDocumentMoniker": "Mng.Core\\Mng.Core.csproj",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\Mng.Core.csproj",
-              "RelativeToolTip": "Mng.Core\\Mng.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:19:57.156Z"
             },
             {
               "$type": "Document",
@@ -457,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Mng.Api\\appsettings.json",
@@ -469,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "BaseMiddleWare.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\BaseMiddleWare.cs",
               "RelativeDocumentMoniker": "Mng.Api\\BaseMiddleWare.cs",
@@ -493,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IRepositories\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Mng.Core\\IRepositories\\IEmployeeRepository.cs",
@@ -505,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\IServices\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "Mng.Core\\IServices\\IEmployeeService.cs",
@@ -517,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "RoleForEmployeeDTO.cs",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Core\\DTOs\\RoleForEmployeeDTO.cs",
               "RelativeDocumentMoniker": "Mng.Core\\DTOs\\RoleForEmployeeDTO.cs",
@@ -541,18 +562,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "Mng.Api\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "Mng.Api\\Controllers\\RolesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T01:11:46.835Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Mng.Api.csproj",
               "DocumentMoniker": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Mng.Api.csproj",
@@ -561,7 +570,8 @@
               "RelativeToolTip": "Mng.Api\\Mng.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:23:42.969Z"
+              "WhenOpened": "2024-04-04T00:23:42.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -573,7 +583,8 @@
               "RelativeToolTip": "Mng.Data\\Mng.Data.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:21:58.354Z"
+              "WhenOpened": "2024-04-04T00:21:58.354Z",
+              "EditorCaption": ""
             }
           ]
         }

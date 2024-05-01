@@ -66,4 +66,19 @@ export class LoginAndLogUpComponent implements OnInit {
     }
   }
   logup(){
+    const loginData = this.logForm.value;
+    this._userService.logup(loginData.userName, loginData.password).subscribe({
+      next: (response) => {
+        localStorage.setItem('token', response.token);
+        this.router.navigate(['/employees']);
+      },
+      error: (error) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Logup failed! Please try again.',
+        });
+      }
+    });
+ 
   }}

@@ -4,12 +4,6 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-
-
-
     <div  class="container mt-4">
       <!-- שדה חיפוש -->
       <input type="text" [(ngModel)]="searchText" (input)="filterEmployeesList()" class="form-control mb-3" placeholder="Search..." >
@@ -28,9 +22,10 @@
             <tr>
                 <th>First Name</th>
                 <th>Last Name</th>
+                <th>Gender</th> <!-- עמודת המין -->
                 <th>Identity Number</th>
                 <th>Start Date</th>
-                <th>Gender</th> <!-- עמודת המין -->
+                
                 <th>Actions</th>
             </tr>
         </thead>
@@ -43,11 +38,12 @@
                   </td>
                 
                 <td>{{ employee.lName }}</td>
-                <td>{{ employee.identityNumber }}</td>
-                <td>{{ employee.startDate | date }}</td>
-                <td>
+                  <td>
                   <i   aria-hidden="true">  <img [src]=" (employee.gender | gender)" alt="Gender Image">  </i>
               </td>   
+                <td>{{ employee.identityNumber }}</td>
+                <td>{{ employee.startDate | date }}</td>
+              
                 <td>
                     <!-- כפתורי עריכה ומחיקה -->
                     <i class="fas fa-trash-alt text-danger cursor-pointer me-2" (click)="deleteEmployee(employee)"></i>

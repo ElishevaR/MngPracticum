@@ -27,8 +27,8 @@ namespace Mng.Api.Controllers
         {
             var user = await _userService.GetByUserNameAndPaswword(loginModel.UserName, loginModel.Password);
 
-        
-            if(user == null) {return Unauthorized(); }
+
+            if (user == null) { return Unauthorized(); }
 
 
             var claims = new List<Claim>()
@@ -50,9 +50,34 @@ namespace Mng.Api.Controllers
             return Ok(new { Token = tokenString });
         }
 
+
+        [HttpPost]
+        [Route("logup")]
+        public async Task<IActionResult> Logup([FromBody] LoginModel loginModel)
+        {
+            var user = await _userService.Register(loginModel.UserName, loginModel.Password);
+
+
+            if (user == null) { return Unauthorized(); }
+
+
+            var claims = new List<Claim>()
+            {
+                new Claim("Password",user.Password.ToString() ),
+                new Claim("UserName",user.UserName)
+            };
+
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetValue<string>("JWT:Key")));
+            var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+            var tokeOptions = new JwtSecurityToken(
+                issuer: _configuration.GetValue<string>("JWT:Issuer"),
+                audience: _configuration.GetValue<string>("JWT:Audience"),
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(6),
+                signingCredentials: signinCredentials
+            );
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
+            return Ok(new { Token = tokenString });
+        }
     }
-
-
-       
-    
 }

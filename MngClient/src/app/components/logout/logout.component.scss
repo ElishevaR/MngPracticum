@@ -1,0 +1,28 @@
+.card {
+    border-radius: 10px;
+    /* עיגול פינות הכרטיס */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* צל מתחת לכרטיס */
+}
+
+.card-header {
+    background-color: #343a40;
+    /* צבע כותרת הכרטיס */
+}
+
+.card-body {
+    background-color: #292e31;
+    /* צבע גוף הכרטיס */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* צבע כפתור "כן, התנתק" */
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    /* צבע כפתור "ביטול" */
+    border-color: #6c757d;
+}

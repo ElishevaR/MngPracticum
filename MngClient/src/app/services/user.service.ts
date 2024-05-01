@@ -15,6 +15,10 @@ export class UserService {
     const body = { userName, password };
     return this._http.post<LoginResponse>(`${this.baseUrl}`, body);
   }
+  logup(userName: string, password: string): Observable<LoginResponse> {
+    const body = { userName, password };
+    return this._http.post<LoginResponse>(`${this.baseUrl}/logup`, body);
+  }
   loggedIn(): boolean {
     return !!localStorage.getItem('token');
   }

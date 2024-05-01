@@ -1,8 +1,9 @@
-
-.container{
+.container-with-background {
     padding-top: 100px;
     padding-bottom: 100px;
+    min-height: 100vh;
+    /* Set a minimum height of 100vh */
+    position: relative;
+    //background-color: rgb(85, 85, 85)
+    /* Replace with your desired hex color code */
 }
-
-
- 
