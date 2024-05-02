@@ -6,12 +6,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginAndLogUpComponent } from './components/login-and-log-up/login-and-log-up.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { AuthGuard } from './auth.guard';
+import { HomeComponent } from './components/home/home.component';
 export const routes: Routes = [
-    { path: '', redirectTo: 'login', pathMatch: 'full' },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'about', component: AboutComponent },
     { path: 'login', component: LoginAndLogUpComponent },
     { path: 'logup', component: LoginAndLogUpComponent },
     { path: 'logout', component: LogoutComponent },
+    { path: 'home', component: HomeComponent },
     {
         path: 'employees',
         loadChildren: () => import('./employee/employee.module').then(m => m.EmployeeModule),
