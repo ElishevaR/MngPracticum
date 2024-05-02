@@ -10,3 +10,43 @@
   img{
     height:60px ;
   }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    background-color: #333;
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    background-color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #222;
+  }
+  
+  .dropdown-toggle::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff;
+    margin-left: 5px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  

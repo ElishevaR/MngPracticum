@@ -173,7 +173,7 @@
               "RelativeDocumentMoniker": "Mng.Api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\myCoursesFullStack\\\u05E9\u05E0\u05D4 \u05D1\\MngPracticum\\MngServer\\Mng.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Mng.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAADwv0IAAAAzAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswEIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T20:37:54.736Z",
               "EditorCaption": ""
@@ -188,8 +188,7 @@
               "RelativeToolTip": "Mng.Data\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAYwBkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:07:32.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T21:07:32.007Z"
             },
             {
               "$type": "Document",
@@ -201,8 +200,7 @@
               "RelativeToolTip": "Mng.Service\\Services\\EmployeeService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T00:25:14.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T00:25:14.607Z"
             },
             {
               "$type": "Document",
@@ -214,8 +212,7 @@
               "RelativeToolTip": "Mng.Api\\Controllers\\EmployeesController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T07:32:11.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T07:32:11.765Z"
             },
             {
               "$type": "Document",
@@ -227,8 +224,7 @@
               "RelativeToolTip": "Mng.Api\\Controllers\\RolesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T01:11:46.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T01:11:46.835Z"
             },
             {
               "$type": "Document",
@@ -240,8 +236,7 @@
               "RelativeToolTip": "Mng.Service\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:09:06.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T21:09:06.956Z"
             },
             {
               "$type": "Document",
@@ -253,8 +248,7 @@
               "RelativeToolTip": "Mng.Data\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:46:52.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T19:46:52.018Z"
             },
             {
               "$type": "Document",
@@ -266,8 +260,7 @@
               "RelativeToolTip": "Mng.Core\\IRepositories\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:05:41.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T21:05:41.816Z"
             },
             {
               "$type": "Document",
@@ -279,8 +272,7 @@
               "RelativeToolTip": "Mng.Core\\IServices\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T21:06:54.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T21:06:54.667Z"
             },
             {
               "$type": "Document",
@@ -292,8 +284,7 @@
               "RelativeToolTip": "Mng.Core\\Mng.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:19:57.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T00:19:57.156Z"
             },
             {
               "$type": "Document",
@@ -425,8 +416,7 @@
               "RelativeToolTip": "Mng.Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T14:24:05.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T14:24:05.458Z"
             },
             {
               "$type": "Document",
@@ -570,8 +560,7 @@
               "RelativeToolTip": "Mng.Api\\Mng.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:23:42.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T00:23:42.969Z"
             },
             {
               "$type": "Document",
@@ -583,8 +572,7 @@
               "RelativeToolTip": "Mng.Data\\Mng.Data.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T00:21:58.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T00:21:58.354Z"
             }
           ]
         }

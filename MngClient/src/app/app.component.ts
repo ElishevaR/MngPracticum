@@ -4,7 +4,6 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
-import { AuthGuard } from './auth.guard';
 import { Routes } from '@angular/router';
 
 @Component({

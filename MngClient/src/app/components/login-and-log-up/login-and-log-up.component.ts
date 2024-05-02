@@ -81,4 +81,5 @@ export class LoginAndLogUpComponent implements OnInit {
       }
     });
  
-  }}
+  }
+}

@@ -36,7 +36,18 @@
                 </ng-container>
               </span>
             </div>
+         
+         
+            <div *ngIf="isLoginRoute">
+              <a href="/logup" class="btn btn-link">Don't have an account? Log Up</a>
+            </div>
+            <div *ngIf="!isLoginRoute">
+              <a href="/login" class="btn btn-link">Already have an account? Log In</a>
+            </div>
+            
             <button [disabled]="!this.logForm.valid" (click)="save()" class="btn btn-primary">Save</button>
+         
+         
           </form>
         </div>
       </div>
