@@ -6,9 +6,6 @@ import Swal from 'sweetalert2'; // ייבוא Swal עבור התראות
 @Injectable({
   providedIn: 'root'
 })
-
-
-
 export class AuthGuard implements CanActivate {
   constructor(private router: Router) {}
 
